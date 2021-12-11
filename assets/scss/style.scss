@@ -726,19 +726,6 @@ svg {
     appearance: none;
 }
 
-// .people-count::after {
-//     content: ">";
-//     width: 20px;
-//     height: 20px;
-//     background: url(../img/select-arrow.svg) center no-repeat;
-//     position: absolute;
-//     right: 10px;
-//     top: calc(50% - 10px);
-//     pointer-events: none;
-// }
-
-
-
 select#people-count {
     background-image:
         linear-gradient(45deg, transparent 50%, gray 50%),
@@ -747,18 +734,6 @@ select#people-count {
     background-size: 5px 5px, 5px 5px, 1px 1.5em;
     background-repeat: no-repeat;
 }
-
-input[type="time"]::-webkit-calendar-picker-indicator {
-    position: relative;
-    right: -20px;
-}
-
-// .our__team-image,
-// .our-special {
-//     max-height: 440px;
-//     max-width: 440px;
-// }
-
 
 
 .menu {
